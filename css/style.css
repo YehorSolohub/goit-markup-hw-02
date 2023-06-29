@@ -48,7 +48,7 @@ body {
 }
 
 .header-menu-item {
-color: #2e2f42;
+color: var(--navy-blue);
 }
 
 .header-menu-link{
@@ -76,7 +76,7 @@ color: #2e2f42;
 .header-socials-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#434455;
+  color:var(--slate);
 }
 
 .header-socials-link:hover,
@@ -273,7 +273,7 @@ color: #2e2f42;
   
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5; /* 24/20 */
+    line-height: 1.2; /* 24/20 */
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
@@ -281,6 +281,7 @@ color: #2e2f42;
 .portfolio-item-text {
   letter-spacing: 0.02em;
   color: #434455;
+  line-height: 1.5ж
 }
 
 /* ----------TSO---------- */
