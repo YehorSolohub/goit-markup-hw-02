@@ -43,6 +43,10 @@ body {
   color: #2e2f42;
 }
 
+.header-menu {
+  color: #2e2f42;
+}
+
 .header-menu-item {
 color: #2e2f42;
 }
@@ -63,6 +67,10 @@ color: #2e2f42;
 
 .header-address {
   font-style: normal;
+}
+
+.header-socials {
+  color: #434455;
 }
 
 .header-socials-item {
@@ -247,6 +255,7 @@ color: #2e2f42;
 
 .all-btn:hover,
 .all-btn:focus {
+  color: #FFFFFF;
   background-color: #404BBF;
 }
 
