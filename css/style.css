@@ -35,7 +35,7 @@ body {
     font-size: 18px;
     line-height: 1.17; /* 21/18 */
     letter-spacing: 0.03em;
-    color: var(--navy-blue);
+    color: #4d5ae5;
     text-transform: uppercase
 }
 
@@ -96,6 +96,11 @@ body {
     color: var(--white);
     background-color: var(--iris);
     cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF;
 }
 
 /* ----------STRATEGY---------- */
@@ -162,7 +167,9 @@ body {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+  background-color: #FFFFFF;
+}
 
 .team-img {}
 
@@ -190,10 +197,11 @@ body {
   font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     /* 21/18 */
-    letter-spacing: -0.03em;
-    color: var(--cloud);
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    text-transform: uppercase;
 }
 
 .footer-logo-accent {
@@ -233,8 +241,8 @@ body {
     color: var(--iris);
 }
 
-.all-other-btn:hover,
-.all-other-btn:focus {
+.all-btn:hover,
+.all-btn:focus {
   background-color: #404BBF;
 }
 
@@ -283,12 +291,14 @@ body {
 /* ----------IOF---------- */
 
 .iof {
-  background-color: #F4F4FD
+  background-color: #F4F4FD;
 }
 
 .iof-list {}
 
-.iof-item {}
+.iof-item {
+  background-color: #FFFFFF;
+}
 
 .iof-img {}
 
